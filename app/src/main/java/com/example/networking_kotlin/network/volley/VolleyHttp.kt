@@ -10,9 +10,9 @@ import org.json.JSONObject
 class VolleyHttp {
     companion object {
         val TAG = VolleyHttp::class.java.simpleName
-        val IS_TESTER = true
+        val IS_TESTER = false
         val SERVER_DEVELOPMENT = "https://jsonplaceholder.typicode.com/"
-        val SERVER_PRODUCTION = "https://jsonplaceholder.typicode.com/"
+        val SERVER_PRODUCTION = "https://6221f114666291106a1804a9.mockapi.io/"
 
         fun server(url: String): String {
             if (IS_TESTER)
